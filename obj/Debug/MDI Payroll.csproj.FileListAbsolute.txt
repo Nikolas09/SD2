@@ -1,0 +1,118 @@
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\bin\Debug\MDI Payroll.exe.config
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\bin\Debug\MDI Payroll.exe
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\bin\Debug\MDI Payroll.pdb
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI Payroll.csprojAssemblyReference.cache
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.Properties.Resources.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI Payroll.csproj.GenerateResource.cache
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI Payroll.csproj.CoreCompileInputs.cache
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI Payroll.exe
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI Payroll.pdb
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.Save.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.LoginPage.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.MainForm.resources
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\bin\Debug\MDI Payroll.exe.config
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\bin\Debug\MDI Payroll.exe
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\bin\Debug\MDI Payroll.pdb
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\obj\Debug\MDI Payroll.csprojAssemblyReference.cache
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.MainForm.resources
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.LoginPage.resources
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.Properties.Resources.resources
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.Save.resources
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\obj\Debug\MDI Payroll.csproj.GenerateResource.cache
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\obj\Debug\MDI Payroll.csproj.CoreCompileInputs.cache
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\obj\Debug\MDI Payroll.exe
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\obj\Debug\MDI Payroll.pdb
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.LoginCheck.resources
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.PaymentOrder.resources
+C:\Users\Eirini\Desktop\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.SalarySlipPage.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.LoginCheck.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.PaymentOrder.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.SalarySlipPage.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.EmployeeAttendance.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.EmployeePayment.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.EmployeeRegistration.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\MDI Payroll\obj\Debug\MDI_Payroll.Overtime.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI Payroll.csprojAssemblyReference.cache
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI Payroll.exe
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI Payroll.pdb
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\MDI Payroll.exe.config
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\MDI Payroll.exe
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\MDI Payroll.pdb
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.EmployeeAttendance.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.EmployeePayment.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.EmployeeRegistration.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.LoginCheck.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.MainForm.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.LoginPage.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.Overtime.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.PaymentOrder.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.Properties.Resources.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.Save.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI Payroll.csproj.GenerateResource.cache
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI Payroll.csproj.CoreCompileInputs.cache
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\MDI Payroll.exe.config
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\MDI Payroll.exe
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\MDI Payroll.pdb
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI Payroll.csprojAssemblyReference.cache
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI_Payroll.EmployeeAttendance.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI_Payroll.EmployeePayment.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI_Payroll.EmployeeRegistration.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI_Payroll.LoginCheck.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI_Payroll.MainForm.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI_Payroll.LoginPage.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI_Payroll.Overtime.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI_Payroll.PaymentOrder.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI_Payroll.Properties.Resources.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI_Payroll.Save.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI Payroll.csproj.GenerateResource.cache
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI Payroll.csproj.CoreCompileInputs.cache
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI Payroll.exe
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI Payroll.pdb
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI_Payroll.SearchEmp.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI_Payroll.SalarySlip.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.Shared.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\FlashControlV71.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\ShockwaveFlashObjects.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\bin\Debug\stdole.dll
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI Payroll.csproj.CopyComplete
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI_Payroll.frmNew.resources
+D:\Documents - Data Drive\Visual Studio 2017\My work\MDI Payroll\obj\Debug\MDI_Payroll.frmPayslip.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.frmNew.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.frmPayslip.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.SalarySlip.resources
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.SearchEmp.resources
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\FlashControlV71.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\stdole.dll
+C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI Payroll.csproj.CopyComplete
