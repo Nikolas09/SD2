@@ -60,16 +60,16 @@
             // 
             // GroupBox2
             // 
-            this.GroupBox2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.GroupBox2.BackColor = System.Drawing.Color.Transparent;
             this.GroupBox2.Controls.Add(this.ViewRecord);
             this.GroupBox2.Controls.Add(this.Delete);
             this.GroupBox2.Controls.Add(this.Save);
             this.GroupBox2.Controls.Add(this.NewRecord);
             this.GroupBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.GroupBox2.Location = new System.Drawing.Point(1145, 145);
-            this.GroupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox2.Name = "GroupBox2";
-            this.GroupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.GroupBox2.Size = new System.Drawing.Size(179, 236);
             this.GroupBox2.TabIndex = 52;
             this.GroupBox2.TabStop = false;
@@ -78,9 +78,9 @@
             // 
             this.ViewRecord.BackColor = System.Drawing.Color.Transparent;
             this.ViewRecord.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ViewRecord.ForeColor = System.Drawing.Color.OliveDrab;
+            this.ViewRecord.ForeColor = System.Drawing.Color.DarkBlue;
             this.ViewRecord.Location = new System.Drawing.Point(21, 165);
-            this.ViewRecord.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ViewRecord.Margin = new System.Windows.Forms.Padding(4);
             this.ViewRecord.Name = "ViewRecord";
             this.ViewRecord.Size = new System.Drawing.Size(132, 36);
             this.ViewRecord.TabIndex = 4;
@@ -92,9 +92,9 @@
             // 
             this.Delete.BackColor = System.Drawing.Color.Transparent;
             this.Delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Delete.ForeColor = System.Drawing.Color.OliveDrab;
+            this.Delete.ForeColor = System.Drawing.Color.DarkBlue;
             this.Delete.Location = new System.Drawing.Point(21, 122);
-            this.Delete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Delete.Margin = new System.Windows.Forms.Padding(4);
             this.Delete.Name = "Delete";
             this.Delete.Size = new System.Drawing.Size(132, 36);
             this.Delete.TabIndex = 3;
@@ -106,9 +106,9 @@
             // 
             this.Save.BackColor = System.Drawing.Color.Transparent;
             this.Save.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Save.ForeColor = System.Drawing.Color.OliveDrab;
+            this.Save.ForeColor = System.Drawing.Color.DarkBlue;
             this.Save.Location = new System.Drawing.Point(21, 78);
-            this.Save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Save.Margin = new System.Windows.Forms.Padding(4);
             this.Save.Name = "Save";
             this.Save.Size = new System.Drawing.Size(132, 36);
             this.Save.TabIndex = 1;
@@ -120,9 +120,9 @@
             // 
             this.NewRecord.BackColor = System.Drawing.Color.Transparent;
             this.NewRecord.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NewRecord.ForeColor = System.Drawing.Color.OliveDrab;
+            this.NewRecord.ForeColor = System.Drawing.Color.DarkBlue;
             this.NewRecord.Location = new System.Drawing.Point(21, 34);
-            this.NewRecord.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NewRecord.Margin = new System.Windows.Forms.Padding(4);
             this.NewRecord.Name = "NewRecord";
             this.NewRecord.Size = new System.Drawing.Size(132, 36);
             this.NewRecord.TabIndex = 0;
@@ -133,6 +133,7 @@
             // GroupBox1
             // 
             this.GroupBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.GroupBox1.BackgroundImage = global::MDI_Payroll.Properties.Resources.background0;
             this.GroupBox1.Controls.Add(this.empl_ID);
             this.GroupBox1.Controls.Add(this.BasicWorkingTime);
             this.GroupBox1.Controls.Add(this.Label12);
@@ -154,11 +155,11 @@
             this.GroupBox1.Controls.Add(this.Label3);
             this.GroupBox1.Controls.Add(this.Label1);
             this.GroupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GroupBox1.ForeColor = System.Drawing.Color.OliveDrab;
+            this.GroupBox1.ForeColor = System.Drawing.Color.SkyBlue;
             this.GroupBox1.Location = new System.Drawing.Point(268, 144);
-            this.GroupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox1.Name = "GroupBox1";
-            this.GroupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.GroupBox1.Size = new System.Drawing.Size(1056, 473);
             this.GroupBox1.TabIndex = 51;
             this.GroupBox1.TabStop = false;
@@ -170,7 +171,7 @@
             this.empl_ID.BackColor = System.Drawing.SystemColors.HighlightText;
             this.empl_ID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.empl_ID.Location = new System.Drawing.Point(309, 73);
-            this.empl_ID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.empl_ID.Margin = new System.Windows.Forms.Padding(4);
             this.empl_ID.Name = "empl_ID";
             this.empl_ID.Size = new System.Drawing.Size(181, 28);
             this.empl_ID.TabIndex = 29;
@@ -179,7 +180,7 @@
             // 
             this.BasicWorkingTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BasicWorkingTime.Location = new System.Drawing.Point(309, 410);
-            this.BasicWorkingTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BasicWorkingTime.Margin = new System.Windows.Forms.Padding(4);
             this.BasicWorkingTime.Mask = "00:00";
             this.BasicWorkingTime.Name = "BasicWorkingTime";
             this.BasicWorkingTime.Size = new System.Drawing.Size(107, 28);
@@ -190,8 +191,9 @@
             // Label12
             // 
             this.Label12.AutoSize = true;
+            this.Label12.BackColor = System.Drawing.Color.Transparent;
             this.Label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label12.ForeColor = System.Drawing.Color.OliveDrab;
+            this.Label12.ForeColor = System.Drawing.Color.SkyBlue;
             this.Label12.Location = new System.Drawing.Point(35, 414);
             this.Label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label12.Name = "Label12";
@@ -205,7 +207,7 @@
             this.EmployeeName.BackColor = System.Drawing.SystemColors.HighlightText;
             this.EmployeeName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EmployeeName.Location = new System.Drawing.Point(309, 114);
-            this.EmployeeName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.EmployeeName.Margin = new System.Windows.Forms.Padding(4);
             this.EmployeeName.Name = "EmployeeName";
             this.EmployeeName.Size = new System.Drawing.Size(509, 28);
             this.EmployeeName.TabIndex = 1;
@@ -217,7 +219,7 @@
             this.DateOfJoining.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DateOfJoining.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.DateOfJoining.Location = new System.Drawing.Point(309, 330);
-            this.DateOfJoining.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DateOfJoining.Margin = new System.Windows.Forms.Padding(4);
             this.DateOfJoining.Name = "DateOfJoining";
             this.DateOfJoining.Size = new System.Drawing.Size(181, 28);
             this.DateOfJoining.TabIndex = 8;
@@ -228,7 +230,7 @@
             this.Salary.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.Salary.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Salary.Location = new System.Drawing.Point(309, 372);
-            this.Salary.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Salary.Margin = new System.Windows.Forms.Padding(4);
             this.Salary.Multiline = true;
             this.Salary.Name = "Salary";
             this.Salary.Size = new System.Drawing.Size(107, 27);
@@ -247,7 +249,7 @@
             "Web Developer",
             "Accounting"});
             this.Department.Location = new System.Drawing.Point(309, 290);
-            this.Department.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Department.Margin = new System.Windows.Forms.Padding(4);
             this.Department.Name = "Department";
             this.Department.Size = new System.Drawing.Size(509, 30);
             this.Department.TabIndex = 6;
@@ -268,7 +270,7 @@
             "AB-",
             "O-"});
             this.BloodGroup.Location = new System.Drawing.Point(309, 256);
-            this.BloodGroup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BloodGroup.Margin = new System.Windows.Forms.Padding(4);
             this.BloodGroup.Name = "BloodGroup";
             this.BloodGroup.Size = new System.Drawing.Size(68, 30);
             this.BloodGroup.TabIndex = 5;
@@ -278,7 +280,7 @@
             this.Email.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Email.Location = new System.Drawing.Point(309, 222);
-            this.Email.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Email.Margin = new System.Windows.Forms.Padding(4);
             this.Email.Multiline = true;
             this.Email.Name = "Email";
             this.Email.Size = new System.Drawing.Size(509, 27);
@@ -289,7 +291,7 @@
             // 
             this.MobileNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MobileNo.Location = new System.Drawing.Point(309, 187);
-            this.MobileNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MobileNo.Margin = new System.Windows.Forms.Padding(4);
             this.MobileNo.Mask = "(99) 000-000";
             this.MobileNo.Name = "MobileNo";
             this.MobileNo.Size = new System.Drawing.Size(127, 28);
@@ -299,7 +301,7 @@
             // 
             this.Address.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Address.Location = new System.Drawing.Point(309, 149);
-            this.Address.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Address.Margin = new System.Windows.Forms.Padding(4);
             this.Address.Multiline = true;
             this.Address.Name = "Address";
             this.Address.Size = new System.Drawing.Size(509, 27);
@@ -308,8 +310,9 @@
             // Label10
             // 
             this.Label10.AutoSize = true;
+            this.Label10.BackColor = System.Drawing.Color.Transparent;
             this.Label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label10.ForeColor = System.Drawing.Color.OliveDrab;
+            this.Label10.ForeColor = System.Drawing.Color.SkyBlue;
             this.Label10.Location = new System.Drawing.Point(35, 222);
             this.Label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label10.Name = "Label10";
@@ -320,8 +323,9 @@
             // Label9
             // 
             this.Label9.AutoSize = true;
+            this.Label9.BackColor = System.Drawing.Color.Transparent;
             this.Label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label9.ForeColor = System.Drawing.Color.OliveDrab;
+            this.Label9.ForeColor = System.Drawing.Color.SkyBlue;
             this.Label9.Location = new System.Drawing.Point(35, 78);
             this.Label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label9.Name = "Label9";
@@ -332,8 +336,9 @@
             // Label8
             // 
             this.Label8.AutoSize = true;
+            this.Label8.BackColor = System.Drawing.Color.Transparent;
             this.Label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label8.ForeColor = System.Drawing.Color.OliveDrab;
+            this.Label8.ForeColor = System.Drawing.Color.SkyBlue;
             this.Label8.Location = new System.Drawing.Point(35, 373);
             this.Label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label8.Name = "Label8";
@@ -345,8 +350,9 @@
             // Label7
             // 
             this.Label7.AutoSize = true;
+            this.Label7.BackColor = System.Drawing.Color.Transparent;
             this.Label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label7.ForeColor = System.Drawing.Color.OliveDrab;
+            this.Label7.ForeColor = System.Drawing.Color.SkyBlue;
             this.Label7.Location = new System.Drawing.Point(35, 334);
             this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label7.Name = "Label7";
@@ -358,8 +364,9 @@
             // Label6
             // 
             this.Label6.AutoSize = true;
+            this.Label6.BackColor = System.Drawing.Color.Transparent;
             this.Label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label6.ForeColor = System.Drawing.Color.OliveDrab;
+            this.Label6.ForeColor = System.Drawing.Color.SkyBlue;
             this.Label6.Location = new System.Drawing.Point(35, 294);
             this.Label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label6.Name = "Label6";
@@ -370,8 +377,9 @@
             // Label5
             // 
             this.Label5.AutoSize = true;
+            this.Label5.BackColor = System.Drawing.Color.Transparent;
             this.Label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label5.ForeColor = System.Drawing.Color.OliveDrab;
+            this.Label5.ForeColor = System.Drawing.Color.SkyBlue;
             this.Label5.Location = new System.Drawing.Point(35, 258);
             this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label5.Name = "Label5";
@@ -382,8 +390,9 @@
             // Label4
             // 
             this.Label4.AutoSize = true;
+            this.Label4.BackColor = System.Drawing.Color.Transparent;
             this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label4.ForeColor = System.Drawing.Color.OliveDrab;
+            this.Label4.ForeColor = System.Drawing.Color.SkyBlue;
             this.Label4.Location = new System.Drawing.Point(35, 148);
             this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
@@ -394,8 +403,9 @@
             // Label3
             // 
             this.Label3.AutoSize = true;
+            this.Label3.BackColor = System.Drawing.Color.Transparent;
             this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.ForeColor = System.Drawing.Color.OliveDrab;
+            this.Label3.ForeColor = System.Drawing.Color.SkyBlue;
             this.Label3.Location = new System.Drawing.Point(35, 186);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
@@ -406,8 +416,9 @@
             // Label1
             // 
             this.Label1.AutoSize = true;
+            this.Label1.BackColor = System.Drawing.Color.Transparent;
             this.Label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.ForeColor = System.Drawing.Color.OliveDrab;
+            this.Label1.ForeColor = System.Drawing.Color.SkyBlue;
             this.Label1.Location = new System.Drawing.Point(35, 112);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
@@ -419,12 +430,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::MDI_Payroll.Properties.Resources.logo;
+            this.BackgroundImage = global::MDI_Payroll.Properties.Resources.background0;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1584, 703);
             this.Controls.Add(this.GroupBox2);
             this.Controls.Add(this.GroupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EmployeeRegistration";
             this.Text = "EmployeeRegistration";
             this.Load += new System.EventHandler(this.EmployeeRegistration_Load);

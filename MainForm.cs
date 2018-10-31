@@ -35,8 +35,7 @@ namespace MDI_Payroll
 
         private void loginPageToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LoginPage loginPage = new LoginPage();
-            loginPage.Show();
+            
         }
 
         private void fileToolStripMenuItem_Click(object sender, EventArgs e)
@@ -100,19 +99,19 @@ namespace MDI_Payroll
             }
             public override System.Drawing.Color MenuBorder
             {
-                get { return Color.YellowGreen; }
+                get { return Color.White; }
             }
             public override System.Drawing.Color MenuItemBorder
             {
-                get { return Color.White; }
+                get { return Color.Blue; }
             }
             public override System.Drawing.Color MenuItemSelected
             {
-                get { return Color.Olive; }
+                get { return Color.WhiteSmoke; }
             }
             public override System.Drawing.Color MenuItemSelectedGradientBegin
             {
-                get { return Color.OliveDrab; }
+                get { return Color.Blue; }
             }
             public override System.Drawing.Color MenuItemSelectedGradientEnd
             {
@@ -146,8 +145,7 @@ namespace MDI_Payroll
 
         private void loginPageToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            LoginPage log = new LoginPage();
-            log.Show();
+            
         }
     }
 }

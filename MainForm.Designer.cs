@@ -34,7 +34,6 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.loginPageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.databaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -72,7 +71,7 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.menuStrip1.BackColor = System.Drawing.Color.SkyBlue;
             this.menuStrip1.ContextMenuStrip = this.contextMenuStrip1;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -87,102 +86,96 @@
             // 
             // fileToolStripMenuItem
             // 
+            this.fileToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.loginPageToolStripMenuItem,
             this.saveToolStripMenuItem,
             this.exitToolStripMenuItem});
             resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
-            this.fileToolStripMenuItem.ForeColor = System.Drawing.Color.OliveDrab;
+            this.fileToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click_1);
             // 
-            // loginPageToolStripMenuItem
-            // 
-            this.loginPageToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
-            resources.ApplyResources(this.loginPageToolStripMenuItem, "loginPageToolStripMenuItem");
-            this.loginPageToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.loginPageToolStripMenuItem.Name = "loginPageToolStripMenuItem";
-            this.loginPageToolStripMenuItem.Click += new System.EventHandler(this.loginPageToolStripMenuItem_Click_1);
-            // 
             // saveToolStripMenuItem
             // 
-            this.saveToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
+            this.saveToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
             resources.ApplyResources(this.saveToolStripMenuItem, "saveToolStripMenuItem");
-            this.saveToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.saveToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             // 
             // exitToolStripMenuItem
             // 
-            this.exitToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
+            this.exitToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
             resources.ApplyResources(this.exitToolStripMenuItem, "exitToolStripMenuItem");
-            this.exitToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.exitToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // databaseToolStripMenuItem
             // 
+            this.databaseToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
             this.databaseToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.staffToolStripMenuItem,
             this.paymentOrderToolStripMenuItem});
             resources.ApplyResources(this.databaseToolStripMenuItem, "databaseToolStripMenuItem");
-            this.databaseToolStripMenuItem.ForeColor = System.Drawing.Color.OliveDrab;
+            this.databaseToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.databaseToolStripMenuItem.Name = "databaseToolStripMenuItem";
             // 
             // staffToolStripMenuItem
             // 
-            this.staffToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
+            this.staffToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
             this.staffToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.searchEmployeeToolStripMenuItem,
             this.newEmployeeEntryToolStripMenuItem,
             this.viewEmploeesToolStripMenuItem});
-            this.staffToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.staffToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.staffToolStripMenuItem.Name = "staffToolStripMenuItem";
             resources.ApplyResources(this.staffToolStripMenuItem, "staffToolStripMenuItem");
             // 
             // searchEmployeeToolStripMenuItem
             // 
-            this.searchEmployeeToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
-            this.searchEmployeeToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.searchEmployeeToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
+            this.searchEmployeeToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.searchEmployeeToolStripMenuItem.Name = "searchEmployeeToolStripMenuItem";
             resources.ApplyResources(this.searchEmployeeToolStripMenuItem, "searchEmployeeToolStripMenuItem");
             this.searchEmployeeToolStripMenuItem.Click += new System.EventHandler(this.searchEmployeeToolStripMenuItem_Click);
             // 
             // newEmployeeEntryToolStripMenuItem
             // 
-            this.newEmployeeEntryToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
-            this.newEmployeeEntryToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.newEmployeeEntryToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
+            this.newEmployeeEntryToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.newEmployeeEntryToolStripMenuItem.Name = "newEmployeeEntryToolStripMenuItem";
             resources.ApplyResources(this.newEmployeeEntryToolStripMenuItem, "newEmployeeEntryToolStripMenuItem");
             this.newEmployeeEntryToolStripMenuItem.Click += new System.EventHandler(this.newEmployeeEntryToolStripMenuItem_Click);
             // 
             // viewEmploeesToolStripMenuItem
             // 
-            this.viewEmploeesToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
-            this.viewEmploeesToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.viewEmploeesToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
+            this.viewEmploeesToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.viewEmploeesToolStripMenuItem.Name = "viewEmploeesToolStripMenuItem";
             resources.ApplyResources(this.viewEmploeesToolStripMenuItem, "viewEmploeesToolStripMenuItem");
             this.viewEmploeesToolStripMenuItem.Click += new System.EventHandler(this.viewEmploeesToolStripMenuItem_Click);
             // 
             // paymentOrderToolStripMenuItem
             // 
-            this.paymentOrderToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
-            this.paymentOrderToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.paymentOrderToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
+            this.paymentOrderToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.paymentOrderToolStripMenuItem.Name = "paymentOrderToolStripMenuItem";
             resources.ApplyResources(this.paymentOrderToolStripMenuItem, "paymentOrderToolStripMenuItem");
             this.paymentOrderToolStripMenuItem.Click += new System.EventHandler(this.paymentOrderToolStripMenuItem_Click);
             // 
             // reportsToolStripMenuItem
             // 
+            this.reportsToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
             this.reportsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.generateToolStripMenuItem,
             this.findToolStripMenuItem});
             resources.ApplyResources(this.reportsToolStripMenuItem, "reportsToolStripMenuItem");
-            this.reportsToolStripMenuItem.ForeColor = System.Drawing.Color.OliveDrab;
+            this.reportsToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.reportsToolStripMenuItem.Name = "reportsToolStripMenuItem";
             // 
             // generateToolStripMenuItem
             // 
-            this.generateToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
+            this.generateToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
             this.generateToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.annualLeaveReportToolStripMenuItem,
             this.sickLeaveReportToolStripMenuItem,
@@ -190,71 +183,72 @@
             this.paymentReportToolStripMenuItem,
             this.unpaidEmployeeReportToolStripMenuItem,
             this.salarySlipToolStripMenuItem});
-            this.generateToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.generateToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.generateToolStripMenuItem.Name = "generateToolStripMenuItem";
             resources.ApplyResources(this.generateToolStripMenuItem, "generateToolStripMenuItem");
             // 
             // annualLeaveReportToolStripMenuItem
             // 
-            this.annualLeaveReportToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
-            this.annualLeaveReportToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.annualLeaveReportToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
+            this.annualLeaveReportToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.annualLeaveReportToolStripMenuItem.Name = "annualLeaveReportToolStripMenuItem";
             resources.ApplyResources(this.annualLeaveReportToolStripMenuItem, "annualLeaveReportToolStripMenuItem");
             // 
             // sickLeaveReportToolStripMenuItem
             // 
-            this.sickLeaveReportToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
-            this.sickLeaveReportToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.sickLeaveReportToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
+            this.sickLeaveReportToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.sickLeaveReportToolStripMenuItem.Name = "sickLeaveReportToolStripMenuItem";
             resources.ApplyResources(this.sickLeaveReportToolStripMenuItem, "sickLeaveReportToolStripMenuItem");
             // 
             // overtimeReportToolStripMenuItem
             // 
-            this.overtimeReportToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
-            this.overtimeReportToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.overtimeReportToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
+            this.overtimeReportToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.overtimeReportToolStripMenuItem.Name = "overtimeReportToolStripMenuItem";
             resources.ApplyResources(this.overtimeReportToolStripMenuItem, "overtimeReportToolStripMenuItem");
             // 
             // paymentReportToolStripMenuItem
             // 
-            this.paymentReportToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
-            this.paymentReportToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.paymentReportToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
+            this.paymentReportToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.paymentReportToolStripMenuItem.Name = "paymentReportToolStripMenuItem";
             resources.ApplyResources(this.paymentReportToolStripMenuItem, "paymentReportToolStripMenuItem");
             // 
             // unpaidEmployeeReportToolStripMenuItem
             // 
-            this.unpaidEmployeeReportToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
-            this.unpaidEmployeeReportToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.unpaidEmployeeReportToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
+            this.unpaidEmployeeReportToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.unpaidEmployeeReportToolStripMenuItem.Name = "unpaidEmployeeReportToolStripMenuItem";
             resources.ApplyResources(this.unpaidEmployeeReportToolStripMenuItem, "unpaidEmployeeReportToolStripMenuItem");
             // 
             // salarySlipToolStripMenuItem
             // 
-            this.salarySlipToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
-            this.salarySlipToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.salarySlipToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
+            this.salarySlipToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.salarySlipToolStripMenuItem.Name = "salarySlipToolStripMenuItem";
             resources.ApplyResources(this.salarySlipToolStripMenuItem, "salarySlipToolStripMenuItem");
             this.salarySlipToolStripMenuItem.Click += new System.EventHandler(this.salarySlipToolStripMenuItem_Click);
             // 
             // findToolStripMenuItem
             // 
-            this.findToolStripMenuItem.BackColor = System.Drawing.Color.OliveDrab;
-            this.findToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.findToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
+            this.findToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.findToolStripMenuItem.Name = "findToolStripMenuItem";
             resources.ApplyResources(this.findToolStripMenuItem, "findToolStripMenuItem");
             // 
             // helpToolStripMenuItem1
             // 
+            this.helpToolStripMenuItem1.BackColor = System.Drawing.Color.SkyBlue;
             resources.ApplyResources(this.helpToolStripMenuItem1, "helpToolStripMenuItem1");
-            this.helpToolStripMenuItem1.ForeColor = System.Drawing.Color.OliveDrab;
+            this.helpToolStripMenuItem1.ForeColor = System.Drawing.Color.DarkBlue;
             this.helpToolStripMenuItem1.Name = "helpToolStripMenuItem1";
             // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::MDI_Payroll.Properties.Resources.logo;
+            this.BackgroundImage = global::MDI_Payroll.Properties.Resources.payroll_banner;
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.Name = "MainForm";
@@ -274,7 +268,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem loginPageToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem databaseToolStripMenuItem;
