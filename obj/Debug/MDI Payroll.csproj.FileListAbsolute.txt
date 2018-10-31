@@ -41,9 +41,7 @@ C:\Users\Eirini\Desktop\MDI Payroll\bin\Debug\MDI Payroll.pdb
 C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.EmployeeAttendance.resources
 C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.EmployeePayment.resources
 C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.EmployeeRegistration.resources
-C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.LoginCheck.resources
 C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.MainForm.resources
-C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.LoginPage.resources
 C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.Overtime.resources
 C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.PaymentOrder.resources
 C:\Users\Eirini\Desktop\MDI Payroll\obj\Debug\MDI_Payroll.Properties.Resources.resources

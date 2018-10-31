@@ -16,7 +16,7 @@ namespace MDI_Payroll
         {
             InitializeComponent();
         }
-        public string conString = "Data Source=DESKTOP-43RRQ63\\SQLEXPRESS;Initial Catalog=Payroll;Integrated Security=True";
+        public string conString = "Data Source=DESKTOP-43RRQ63\\SQLEXPRESS;Initial Catalog=sd2;Integrated Security=True";
 
         private void Email_TextChanged(object sender, EventArgs e)
         {

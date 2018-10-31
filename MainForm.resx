@@ -139,15 +139,6 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>152, 17</value>
   </metadata>
-  <data name="loginPageToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10.8pt</value>
-  </data>
-  <data name="loginPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 30</value>
-  </data>
-  <data name="loginPageToolStripMenuItem.Text" xml:space="preserve">
-    <value>Login Page</value>
-  </data>
   <data name="saveToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 10.8pt</value>
   </data>
@@ -251,13 +242,13 @@
     <value>Employee Salary Slip</value>
   </data>
   <data name="generateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 30</value>
+    <value>216, 30</value>
   </data>
   <data name="generateToolStripMenuItem.Text" xml:space="preserve">
     <value>Generate</value>
   </data>
   <data name="findToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 30</value>
+    <value>216, 30</value>
   </data>
   <data name="findToolStripMenuItem.Text" xml:space="preserve">
     <value>Search</value>
@@ -337,12 +328,6 @@
     <value>fileToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;loginPageToolStripMenuItem.Name" xml:space="preserve">
-    <value>loginPageToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;loginPageToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;saveToolStripMenuItem.Name" xml:space="preserve">

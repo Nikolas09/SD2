@@ -84,23 +84,11 @@
     <Compile Include="frmPayslip.Designer.cs">
       <DependentUpon>frmPayslip.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginCheck.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LoginCheck.Designer.cs">
-      <DependentUpon>LoginCheck.cs</DependentUpon>
-    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="LoginPage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LoginPage.Designer.cs">
-      <DependentUpon>LoginPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Overtime.cs">
       <SubType>Form</SubType>
@@ -183,14 +171,8 @@
     <EmbeddedResource Include="frmPayslip.resx">
       <DependentUpon>frmPayslip.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginCheck.resx">
-      <DependentUpon>LoginCheck.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LoginPage.resx">
-      <DependentUpon>LoginPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Overtime.resx">
       <DependentUpon>Overtime.cs</DependentUpon>
@@ -273,6 +255,15 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\38688826-payroll-schaltfläche-mit-business-hand-auf-blauem-hintergrund.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\payroll-banner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\background0.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

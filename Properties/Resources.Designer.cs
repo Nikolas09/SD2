@@ -63,9 +63,39 @@ namespace MDI_Payroll.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _38688826_payroll_schaltfläche_mit_business_hand_auf_blauem_hintergrund {
+            get {
+                object obj = ResourceManager.GetObject("38688826-payroll-schaltfläche-mit-business-hand-auf-blauem-hintergrund", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap background0 {
+            get {
+                object obj = ResourceManager.GetObject("background0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo {
             get {
                 object obj = ResourceManager.GetObject("logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap payroll_banner {
+            get {
+                object obj = ResourceManager.GetObject("payroll-banner", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
