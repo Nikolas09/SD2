@@ -181,11 +181,9 @@
             this.BasicWorkingTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BasicWorkingTime.Location = new System.Drawing.Point(309, 410);
             this.BasicWorkingTime.Margin = new System.Windows.Forms.Padding(4);
-            this.BasicWorkingTime.Mask = "00:00";
             this.BasicWorkingTime.Name = "BasicWorkingTime";
             this.BasicWorkingTime.Size = new System.Drawing.Size(107, 28);
             this.BasicWorkingTime.TabIndex = 10;
-            this.BasicWorkingTime.ValidatingType = typeof(System.DateTime);
             this.BasicWorkingTime.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.BasicWorkingTime_MaskInputRejected);
             // 
             // Label12
@@ -235,7 +233,6 @@
             this.Salary.Name = "Salary";
             this.Salary.Size = new System.Drawing.Size(107, 27);
             this.Salary.TabIndex = 9;
-            this.Salary.Text = "Euro: ";
             this.Salary.TextChanged += new System.EventHandler(this.Salary_TextChanged);
             // 
             // Department
@@ -292,7 +289,6 @@
             this.MobileNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MobileNo.Location = new System.Drawing.Point(309, 187);
             this.MobileNo.Margin = new System.Windows.Forms.Padding(4);
-            this.MobileNo.Mask = "(99) 000-000";
             this.MobileNo.Name = "MobileNo";
             this.MobileNo.Size = new System.Drawing.Size(127, 28);
             this.MobileNo.TabIndex = 3;
