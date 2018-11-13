@@ -154,3 +154,43 @@ C:\Users\Eirini\Desktop\MDI Payroll\SD2\obj\Debug\MDI Payroll.csproj.CoreCompile
 C:\Users\Eirini\Desktop\MDI Payroll\SD2\obj\Debug\MDI Payroll.csproj.CopyComplete
 C:\Users\Eirini\Desktop\MDI Payroll\SD2\obj\Debug\MDI Payroll.exe
 C:\Users\Eirini\Desktop\MDI Payroll\SD2\obj\Debug\MDI Payroll.pdb
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\MDI Payroll.exe.config
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\MDI Payroll.exe
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\MDI Payroll.pdb
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.Shared.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\FlashControlV71.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\ShockwaveFlashObjects.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Documents - Data Drive\GitHub\SD2\bin\Debug\stdole.dll
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI Payroll.csprojAssemblyReference.cache
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.EmployeeAttendance.resources
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.EmployeePayment.resources
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.EmployeeRegistration.resources
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.frmNew.resources
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.frmPayslip.resources
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.MainForm.resources
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.Overtime.resources
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.PaymentOrder.resources
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.Properties.Resources.resources
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.SalarySlip.resources
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.Save.resources
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.SearchEmp.resources
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI Payroll.csproj.GenerateResource.cache
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI Payroll.csproj.CoreCompileInputs.cache
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI Payroll.csproj.CopyComplete
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI Payroll.exe
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI Payroll.pdb
