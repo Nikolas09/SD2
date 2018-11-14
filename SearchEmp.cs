@@ -55,5 +55,10 @@ namespace MDI_Payroll
         {
 
         }
+
+        private void dataview_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

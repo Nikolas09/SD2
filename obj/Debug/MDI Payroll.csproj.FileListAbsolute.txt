@@ -154,3 +154,4 @@ C:\Users\Eirini\Desktop\MDI Payroll\SD2\obj\Debug\MDI Payroll.csproj.CoreCompile
 C:\Users\Eirini\Desktop\MDI Payroll\SD2\obj\Debug\MDI Payroll.csproj.CopyComplete
 C:\Users\Eirini\Desktop\MDI Payroll\SD2\obj\Debug\MDI Payroll.exe
 C:\Users\Eirini\Desktop\MDI Payroll\SD2\obj\Debug\MDI Payroll.pdb
+C:\Users\Eirini\Desktop\MDI Payroll\SD2\obj\Debug\MDI_Payroll.SalaryReportDataGrid.resources

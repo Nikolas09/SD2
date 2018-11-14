@@ -46,6 +46,7 @@
             this.dataview.Name = "dataview";
             this.dataview.Size = new System.Drawing.Size(989, 288);
             this.dataview.TabIndex = 2;
+            this.dataview.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataview_CellContentClick);
             // 
             // label2
             // 

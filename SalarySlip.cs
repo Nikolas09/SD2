@@ -94,9 +94,12 @@ namespace MDI_Payroll
              */
 
 
+            //tuto kanonika
+            //frmPayslip pay = new frmPayslip();
+            //pay.Show();
 
-            frmPayslip pay = new frmPayslip();
-            pay.Show();
+            SalaryReportDataGrid salary = new SalaryReportDataGrid();
+            salary.Show();
         }
 
         private void SalarySlip_Load(object sender, EventArgs e)
