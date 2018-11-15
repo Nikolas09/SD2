@@ -20,15 +20,15 @@ namespace MDI_Payroll
         public string conString = "Data Source=DESKTOP-43RRQ63\\SQLEXPRESS;Initial Catalog=sd2;Integrated Security=True";
         private void button1_Click(object sender, EventArgs e)
         {
-            string sql = "select fname,lname, salary_id from tbl_user where user_id like '" + id_txt.Text + "' or fname like '" + id_txt.Text + "%'";
-            
+            string sql = "select fname from tbl_user where user_id like '" + id_txt.Text + "' or fname like '" + id_txt.Text + "%'";
             SqlConnection connection = new SqlConnection(conString);
             SqlDataAdapter dataadapter = new SqlDataAdapter(sql, connection);
             SqlCommand com = new SqlCommand(sql, connection);
             com.Parameters.Clear();
-            
+          
 
-            salaryDataSet ds = new salaryDataSet();
+            dokimiDataSet ds = new dokimiDataSet();
+          //  ds.EnforceConstraints = false;
             connection.Open();
             dataadapter.Fill(ds, "tbl_user");
             connection.Close();

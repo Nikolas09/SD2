@@ -54,6 +54,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dokimiDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dokimiDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeAttendance.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,16 +106,6 @@
     </Compile>
     <Compile Include="PaymentOrder.Designer.cs">
       <DependentUpon>PaymentOrder.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PayrollDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PayrollDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="PayrollDataSet_new.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PayrollDataSet_new.xsd</DependentUpon>
     </Compile>
     <Compile Include="payslip.cs">
       <AutoGen>True</AutoGen>
@@ -239,27 +234,16 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>testReport.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="PayrollDataSet.xsc">
-      <DependentUpon>PayrollDataSet.xsd</DependentUpon>
+    <None Include="dokimiDataSet.xsc">
+      <DependentUpon>dokimiDataSet.xsd</DependentUpon>
     </None>
-    <None Include="PayrollDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PayrollDataSet.Designer.cs</LastGenOutput>
+    <None Include="dokimiDataSet.xsd">
       <SubType>Designer</SubType>
-    </None>
-    <None Include="PayrollDataSet.xss">
-      <DependentUpon>PayrollDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="PayrollDataSet_new.xsc">
-      <DependentUpon>PayrollDataSet_new.xsd</DependentUpon>
-    </None>
-    <None Include="PayrollDataSet_new.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PayrollDataSet_new.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
+      <LastGenOutput>dokimiDataSet.Designer.cs</LastGenOutput>
     </None>
-    <None Include="PayrollDataSet_new.xss">
-      <DependentUpon>PayrollDataSet_new.xsd</DependentUpon>
+    <None Include="dokimiDataSet.xss">
+      <DependentUpon>dokimiDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -299,6 +283,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="images\background0.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
