@@ -131,6 +131,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>salaryDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="SalaryReportWithoutOver.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalaryReportWithoutOver.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="SalarySlip.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +148,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SalarySlipReport.rpt</DependentUpon>
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SalaryWithoutOvertimeDataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalaryWithoutOvertimeDataset.xsd</DependentUpon>
     </Compile>
     <Compile Include="Save.cs">
       <SubType>Form</SubType>
@@ -209,6 +220,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SalaryReportWithoutOver.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalaryReportWithoutOver.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="SalarySlip.resx">
       <DependentUpon>SalarySlip.cs</DependentUpon>
     </EmbeddedResource>
@@ -271,6 +286,17 @@
     </None>
     <None Include="salaryDataSet.xss">
       <DependentUpon>salaryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SalaryWithoutOvertimeDataset.xsc">
+      <DependentUpon>SalaryWithoutOvertimeDataset.xsd</DependentUpon>
+    </None>
+    <None Include="SalaryWithoutOvertimeDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalaryWithoutOvertimeDataset.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SalaryWithoutOvertimeDataset.xss">
+      <DependentUpon>SalaryWithoutOvertimeDataset.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

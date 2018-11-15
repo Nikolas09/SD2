@@ -176,7 +176,6 @@ D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportAppServer.
 D:\Documents - Data Drive\GitHub\SD2\bin\Debug\ShockwaveFlashObjects.dll
 D:\Documents - Data Drive\GitHub\SD2\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 D:\Documents - Data Drive\GitHub\SD2\bin\Debug\stdole.dll
-D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI Payroll.csprojAssemblyReference.cache
 D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.EmployeeAttendance.resources
 D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.EmployeePayment.resources
 D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI_Payroll.EmployeeRegistration.resources
@@ -194,3 +193,4 @@ D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI Payroll.csproj.CoreCompileInp
 D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI Payroll.csproj.CopyComplete
 D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI Payroll.exe
 D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI Payroll.pdb
+D:\Documents - Data Drive\GitHub\SD2\obj\Debug\MDI Payroll.csprojAssemblyReference.cache

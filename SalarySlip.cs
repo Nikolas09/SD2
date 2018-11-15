@@ -20,7 +20,7 @@ namespace MDI_Payroll
         {
             InitializeComponent();
         }
-        public string conString = "Data Source=DESKTOP-43RRQ63\'SQLEXPRESS;Initial Catalog=sd2;Integrated Security=True";
+        public string conString = "Data Source=DESKTOP-QLP0JCN;Initial Catalog=sd2;Integrated Security=True";
 
         private void button1_Click(object sender, EventArgs e)
         {

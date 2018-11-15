@@ -65,8 +65,10 @@ namespace MDI_Payroll
 
         private void salarySlipToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SalarySlip payslip = new SalarySlip();
-            payslip.Show();
+            //SalarySlip payslip = new SalarySlip();
+            //payslip.Show();
+            frmPayslip pay = new frmPayslip();
+            pay.Show();
         }
 
         private void paymentOrderToolStripMenuItem_Click(object sender, EventArgs e)

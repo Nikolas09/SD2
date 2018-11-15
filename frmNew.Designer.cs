@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.crystalReportViewer = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
+            this.SalaryReportWithoutOver2 = new MDI_Payroll.SalaryReportWithoutOver();
+            this.SalaryReportWithoutOver1 = new MDI_Payroll.SalaryReportWithoutOver();
             this.SuspendLayout();
             // 
             // crystalReportViewer
@@ -38,20 +40,17 @@
             this.crystalReportViewer.Cursor = System.Windows.Forms.Cursors.Default;
             this.crystalReportViewer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.crystalReportViewer.Location = new System.Drawing.Point(0, 0);
-            this.crystalReportViewer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.crystalReportViewer.Name = "crystalReportViewer";
-            this.crystalReportViewer.Size = new System.Drawing.Size(1067, 554);
+            this.crystalReportViewer.Size = new System.Drawing.Size(800, 450);
             this.crystalReportViewer.TabIndex = 0;
-            this.crystalReportViewer.ToolPanelWidth = 267;
             this.crystalReportViewer.Load += new System.EventHandler(this.crystalReportViewer_Load);
             // 
             // frmNew
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.crystalReportViewer);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmNew";
             this.Text = "frmNew";
             this.Load += new System.EventHandler(this.frmNew_Load);
@@ -62,5 +61,7 @@
         #endregion
 
         private CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer;
+        private SalaryReportWithoutOver SalaryReportWithoutOver1;
+        private SalaryReportWithoutOver SalaryReportWithoutOver2;
     }
 }
