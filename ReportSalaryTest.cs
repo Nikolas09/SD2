@@ -16,14 +16,14 @@ namespace MDI_Payroll {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class SalarySlipReport : ReportClass {
+    public class ReportSalaryTest : ReportClass {
         
-        public SalarySlipReport() {
+        public ReportSalaryTest() {
         }
         
         public override string ResourceName {
             get {
-                return "SalarySlipReport.rpt";
+                return "ReportSalaryTest.rpt";
             }
             set {
                 // Do nothing
@@ -41,7 +41,7 @@ namespace MDI_Payroll {
         
         public override string FullResourceName {
             get {
-                return "MDI_Payroll.SalarySlipReport.rpt";
+                return "MDI_Payroll.ReportSalaryTest.rpt";
             }
             set {
                 // Do nothing
@@ -90,9 +90,9 @@ namespace MDI_Payroll {
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedSalarySlipReport : Component, ICachedReport {
+    public class CachedReportSalaryTest : Component, ICachedReport {
         
-        public CachedSalarySlipReport() {
+        public CachedReportSalaryTest() {
         }
         
         [Browsable(false)]
@@ -129,7 +129,7 @@ namespace MDI_Payroll {
         }
         
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
-            SalarySlipReport rpt = new SalarySlipReport();
+            ReportSalaryTest rpt = new ReportSalaryTest();
             rpt.Site = this.Site;
             return rpt;
         }
