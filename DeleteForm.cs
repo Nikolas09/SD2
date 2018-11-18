@@ -29,13 +29,12 @@ namespace MDI_Payroll
             com.Parameters.Clear();
             //  com.Parameters.AddWithValue("@id", id);
             //  com.Parameters.AddWithValue("@name", id);
-
             DataSet ds = new DataSet();
             connection.Open();
-            dataadapter.Fill(ds, "tbl_user");
+            dataadapter.Fill(ds,"tbl_user");
             connection.Close();
             dataGridView.DataSource = ds;
-            dataGridView.DataMember = "tbl_user";
+            dataGridView.DataMember ="tbl_user";
         }
 
         private void button1_Click(object sender, EventArgs e)

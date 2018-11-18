@@ -137,6 +137,11 @@
     <Compile Include="PaymentOrder.Designer.cs">
       <DependentUpon>PaymentOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="PaymentOrderDataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaymentOrderDataset.xsd</DependentUpon>
+    </Compile>
     <Compile Include="PayrollDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -318,6 +323,17 @@
       <DependentUpon>FinalSalaryDataset.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="PaymentOrderDataset.xsc">
+      <DependentUpon>PaymentOrderDataset.xsd</DependentUpon>
+    </None>
+    <None Include="PaymentOrderDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PaymentOrderDataset.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PaymentOrderDataset.xss">
+      <DependentUpon>PaymentOrderDataset.xsd</DependentUpon>
+    </None>
     <None Include="PayrollDataSet.xsc">
       <DependentUpon>PayrollDataSet.xsd</DependentUpon>
     </None>

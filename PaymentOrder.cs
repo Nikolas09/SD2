@@ -21,6 +21,7 @@ namespace MDI_Payroll
         {
 
             this.reportViewer1.RefreshReport();
+            this.reportViewer1.RefreshReport();
         }
     }
 }
