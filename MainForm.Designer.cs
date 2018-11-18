@@ -52,6 +52,7 @@
             this.salarySlipToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.findToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.deleteEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -126,7 +127,8 @@
             this.staffToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.searchEmployeeToolStripMenuItem,
             this.newEmployeeEntryToolStripMenuItem,
-            this.viewEmploeesToolStripMenuItem});
+            this.viewEmploeesToolStripMenuItem,
+            this.deleteEmployeeToolStripMenuItem});
             this.staffToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.staffToolStripMenuItem.Name = "staffToolStripMenuItem";
             resources.ApplyResources(this.staffToolStripMenuItem, "staffToolStripMenuItem");
@@ -244,6 +246,11 @@
             this.helpToolStripMenuItem1.ForeColor = System.Drawing.Color.DarkBlue;
             this.helpToolStripMenuItem1.Name = "helpToolStripMenuItem1";
             // 
+            // deleteEmployeeToolStripMenuItem
+            // 
+            this.deleteEmployeeToolStripMenuItem.Name = "deleteEmployeeToolStripMenuItem";
+            resources.ApplyResources(this.deleteEmployeeToolStripMenuItem, "deleteEmployeeToolStripMenuItem");
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -286,6 +293,7 @@
         public System.Windows.Forms.ToolStripMenuItem reportsToolStripMenuItem;
         internal System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem viewEmploeesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem deleteEmployeeToolStripMenuItem;
     }
 }
 

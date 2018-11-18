@@ -72,27 +72,21 @@ namespace MDI_Payroll
 
         private void button2_Click(object sender, EventArgs e)
         {
+            FinalSalaryReport fi = new FinalSalaryReport();
+            fi.Show();
+            //SalaryReportWithoutOver rpt = new SalaryReportWithoutOver();
+            //SqlConnection con = new SqlConnection("Data Source=DESKTOP-QLP0JCN;Initial Catalog=sd2;Integrated Security=True");
+            //SqlDataAdapter myadapter;
+            //SalaryWithoutOvertimeDataset ds = new SalaryWithoutOvertimeDataset();
+            //ds.EnforceConstraints = false;
+            //myadapter = new SqlDataAdapter("select fname, lname from tbl_user; select working_hours, hourly_rate,salary_amount = working_hours*hourly_rate+flat_amount  from tbl_user, tbl_salary where tbl_user.user_id = tbl_salary.user_id and tbl_salary.user_id like '" + user_ID.Text + "' or fname like '" + user_ID.Text + "%'",con);
+            //myadapter.Fill(ds);
+            
 
-            //SalaryReportWithoutOver cr = new SalaryReportWithoutOver();
-            //cr.SetDataSource(ds);
-            frmNew f = new frmNew();
+            //rpt.SetDataSource(ds);
+            //frmNew f = new frmNew();
             //f.LinkReport(cr);
             //f.Show();
-
-            SalaryReportWithoutOver rpt = new SalaryReportWithoutOver();
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-QLP0JCN;Initial Catalog=sd2;Integrated Security=True");
-            SqlDataAdapter myadapter;
-            SalaryWithoutOvertimeDataset ds = new SalaryWithoutOvertimeDataset();
-            ds.EnforceConstraints = false;
-            myadapter = new SqlDataAdapter("select fname, lname from tbl_user; select working_hours, hourly_rate,salary_amount = working_hours*hourly_rate+flat_amount  from tbl_user, tbl_salary where tbl_user.user_id = tbl_salary.user_id and tbl_salary.user_id like '" + user_ID.Text + "' or fname like '" + user_ID.Text + "%'",con);
-            myadapter.Fill(ds);
-            ds.Tables(0).TableName = "tbl_user";
-
-            rpt.SetDataSource(ds);
-         
-            f.LinkReport(rpt);
-            f.Show();
-
 
 
         }

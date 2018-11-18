@@ -39,48 +39,48 @@
             // user_ID
             // 
             this.user_ID.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.user_ID.Location = new System.Drawing.Point(366, 42);
+            this.user_ID.Location = new System.Drawing.Point(401, 49);
             this.user_ID.Margin = new System.Windows.Forms.Padding(2);
+            this.user_ID.Multiline = true;
             this.user_ID.Name = "user_ID";
-            this.user_ID.Size = new System.Drawing.Size(76, 13);
+            this.user_ID.Size = new System.Drawing.Size(88, 29);
             this.user_ID.TabIndex = 1;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(230, 49);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.Size = new System.Drawing.Size(91, 29);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Enter ID";
+            this.label1.Text = "Enter user ID";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(532, 42);
+            this.button1.Location = new System.Drawing.Point(589, 11);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(56, 19);
+            this.button1.Size = new System.Drawing.Size(75, 43);
             this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
+            this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dataGridView
             // 
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Location = new System.Drawing.Point(101, 117);
+            this.dataGridView.Location = new System.Drawing.Point(104, 156);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.Size = new System.Drawing.Size(600, 244);
             this.dataGridView.TabIndex = 4;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(532, 78);
+            this.button2.Location = new System.Drawing.Point(589, 82);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 43);
             this.button2.TabIndex = 5;
-            this.button2.Text = "Report";
+            this.button2.Text = "Generate Report";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 

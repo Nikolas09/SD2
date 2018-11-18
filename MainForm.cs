@@ -29,8 +29,7 @@ namespace MDI_Payroll
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Save save = new Save();
-            save.Show();
+        
         }
 
         private void loginPageToolStripMenuItem_Click(object sender, EventArgs e)
@@ -79,8 +78,11 @@ namespace MDI_Payroll
 
         private void newEmployeeEntryToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            EmployeeRegistration empl_registration = new EmployeeRegistration();
-            empl_registration.Show();
+            //EmployeeRegistration empl_registration = new EmployeeRegistration();
+            //empl_registration.Show();
+
+            RegistationForm re = new RegistationForm();
+            re.Show();
         }
 
         private void searchEmployeeToolStripMenuItem_Click(object sender, EventArgs e)

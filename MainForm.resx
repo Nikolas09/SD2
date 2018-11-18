@@ -122,13 +122,13 @@
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 24</value>
+    <value>180, 22</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>toolStripMenuItem1</value>
   </data>
   <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 28</value>
+    <value>181, 26</value>
   </data>
   <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
     <value>contextMenuStrip1</value>
@@ -143,7 +143,7 @@
     <value>Segoe UI, 10.8pt</value>
   </data>
   <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 30</value>
+    <value>109, 24</value>
   </data>
   <data name="saveToolStripMenuItem.Text" xml:space="preserve">
     <value>Save</value>
@@ -152,7 +152,7 @@
     <value>Segoe UI, 10.8pt</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 30</value>
+    <value>109, 24</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>Exit</value>
@@ -161,37 +161,43 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 29</value>
+    <value>44, 24</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>File</value>
   </data>
   <data name="searchEmployeeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>263, 30</value>
+    <value>215, 24</value>
   </data>
   <data name="searchEmployeeToolStripMenuItem.Text" xml:space="preserve">
     <value>Search Employee</value>
   </data>
   <data name="newEmployeeEntryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>263, 30</value>
+    <value>215, 24</value>
   </data>
   <data name="newEmployeeEntryToolStripMenuItem.Text" xml:space="preserve">
     <value>New Employee Entry</value>
   </data>
   <data name="viewEmploeesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>263, 30</value>
+    <value>215, 24</value>
   </data>
   <data name="viewEmploeesToolStripMenuItem.Text" xml:space="preserve">
-    <value>View Employees</value>
+    <value>Edit Employee </value>
+  </data>
+  <data name="deleteEmployeeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 24</value>
+  </data>
+  <data name="deleteEmployeeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Delete Employee</value>
   </data>
   <data name="staffToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 30</value>
+    <value>180, 24</value>
   </data>
   <data name="staffToolStripMenuItem.Text" xml:space="preserve">
     <value>Staff</value>
   </data>
   <data name="paymentOrderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 30</value>
+    <value>180, 24</value>
   </data>
   <data name="paymentOrderToolStripMenuItem.Text" xml:space="preserve">
     <value>Payment Order</value>
@@ -200,55 +206,55 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="databaseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 29</value>
+    <value>68, 24</value>
   </data>
   <data name="databaseToolStripMenuItem.Text" xml:space="preserve">
     <value>System</value>
   </data>
   <data name="annualLeaveReportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 30</value>
+    <value>245, 24</value>
   </data>
   <data name="annualLeaveReportToolStripMenuItem.Text" xml:space="preserve">
     <value>Annual Leave Report</value>
   </data>
   <data name="sickLeaveReportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 30</value>
+    <value>245, 24</value>
   </data>
   <data name="sickLeaveReportToolStripMenuItem.Text" xml:space="preserve">
     <value>Sick Leave Report</value>
   </data>
   <data name="overtimeReportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 30</value>
+    <value>245, 24</value>
   </data>
   <data name="overtimeReportToolStripMenuItem.Text" xml:space="preserve">
     <value>Overtime Report</value>
   </data>
   <data name="paymentReportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 30</value>
+    <value>245, 24</value>
   </data>
   <data name="paymentReportToolStripMenuItem.Text" xml:space="preserve">
     <value>Payment Report</value>
   </data>
   <data name="unpaidEmployeeReportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 30</value>
+    <value>245, 24</value>
   </data>
   <data name="unpaidEmployeeReportToolStripMenuItem.Text" xml:space="preserve">
     <value>Unpaid Employee Report</value>
   </data>
   <data name="salarySlipToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 30</value>
+    <value>245, 24</value>
   </data>
   <data name="salarySlipToolStripMenuItem.Text" xml:space="preserve">
     <value>Employee Salary Slip</value>
   </data>
   <data name="generateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 30</value>
+    <value>138, 24</value>
   </data>
   <data name="generateToolStripMenuItem.Text" xml:space="preserve">
     <value>Generate</value>
   </data>
   <data name="findToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 30</value>
+    <value>138, 24</value>
   </data>
   <data name="findToolStripMenuItem.Text" xml:space="preserve">
     <value>Search</value>
@@ -257,7 +263,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="reportsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 29</value>
+    <value>72, 24</value>
   </data>
   <data name="reportsToolStripMenuItem.Text" xml:space="preserve">
     <value>Reports</value>
@@ -266,7 +272,7 @@
     <value>Segoe UI, 11pt</value>
   </data>
   <data name="helpToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 29</value>
+    <value>53, 24</value>
   </data>
   <data name="helpToolStripMenuItem1.Text" xml:space="preserve">
     <value>Help</value>
@@ -274,12 +280,8 @@
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 2, 0, 2</value>
-  </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1475, 33</value>
+    <value>1106, 28</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
@@ -304,16 +306,14 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 13</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1475, 554</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>1106, 450</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>MainForm</value>
@@ -436,6 +436,12 @@
     <value>helpToolStripMenuItem1</value>
   </data>
   <data name="&gt;&gt;helpToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteEmployeeToolStripMenuItem.Name" xml:space="preserve">
+    <value>deleteEmployeeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;deleteEmployeeToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
