@@ -15,11 +15,12 @@ namespace MDI_Payroll
 {
     public partial class frmPayslip : Form
     {
+        //public SalaryWithoutOvertimeDataset ds = new SalaryWithoutOvertimeDataset();
         public frmPayslip()
         {
             InitializeComponent();
         }
-
+        string conString = "Data Source=DESKTOP-43RRQ63\\SQLEXPRESS;Initial Catalog=sd2;Integrated Security=True";
         private void frmPayslip_Load(object sender, EventArgs e)
         {
             
@@ -36,17 +37,58 @@ namespace MDI_Payroll
 
         private void button1_Click(object sender, EventArgs e)
         {
-            payslipTestReport rpt = new payslipTestReport(); //The report you created.
-            SqlConnection myCon;
-            SqlDataAdapter myAdapter;
-            salaryDataSet myDataset = new salaryDataSet(); //The DataSet you created.
-            myCon = new SqlConnection("Data Source=DESKTOP-43RRQ63\\SQLEXPRESS;Initial Catalog=sd2;Integrated Security=True");
+            //payslipTestReport rpt = new payslipTestReport(); //The report you created.
+            //SqlConnection myCon;
+            //SqlDataAdapter myAdapter;
+            //salaryDataSet myDataset = new salaryDataSet(); //The DataSet you created.
+            //myCon = new SqlConnection("Data Source=DESKTOP-QLP0JCN;Initial Catalog=sd2;Integrated Security=True");
+            
+            //myAdapter = new SqlDataAdapter("Select * FROM tbl_user where user_id like '" + user_ID.Text + "'", myCon);
+            //myAdapter.Fill(myDataset, "tbl_user");
+            //rpt.SetDataSource(myDataset);
+            //crystalReportViewer.ReportSource = rpt;
+            //crystalReportViewer.Refresh();
 
-            myAdapter = new SqlDataAdapter("Select * FROM tbl_user where user_id like '" + user_ID.Text + "'", myCon);
-            myAdapter.Fill(myDataset, "tbl_user");
-            rpt.SetDataSource(myDataset);
-            crystalReportViewer.ReportSource = rpt;
-            crystalReportViewer.Refresh();
+
+            string sql = "select fname, lname ,working_hours, hourly_rate,salary_amount = working_hours*hourly_rate+flat_amount  from tbl_user, tbl_salary where tbl_user.user_id = tbl_salary.user_id and tbl_user.user_id like '" + user_ID.Text + "' or fname like '" + user_ID.Text + "%'";
+            //string sql = "select * from tbl_user where user_id = @id or fname = @name ";
+            //sqlcommand. com = new sqlcommand
+            SqlConnection connection = new SqlConnection(conString);
+            SqlDataAdapter dataadapter = new SqlDataAdapter(sql, connection);
+
+            SqlCommand com = new SqlCommand(sql, connection);
+            com.Parameters.Clear();
+            //  com.Parameters.AddWithValue("@id", id);
+            //  com.Parameters.AddWithValue("@name", id);
+
+            SalaryWithoutOvertimeDataset ds = new SalaryWithoutOvertimeDataset();
+            ds.EnforceConstraints = false;
+            connection.Open();
+            dataadapter.Fill(ds, "tbl_user");
+            connection.Close();
+            dataGridView.DataSource = ds;
+            dataGridView.DataMember = "tbl_user";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FinalSalaryReport fi = new FinalSalaryReport();
+            fi.Show();
+            //SalaryReportWithoutOver rpt = new SalaryReportWithoutOver();
+            //SqlConnection con = new SqlConnection("Data Source=DESKTOP-QLP0JCN;Initial Catalog=sd2;Integrated Security=True");
+            //SqlDataAdapter myadapter;
+            //SalaryWithoutOvertimeDataset ds = new SalaryWithoutOvertimeDataset();
+            //ds.EnforceConstraints = false;
+            //myadapter = new SqlDataAdapter("select fname, lname from tbl_user; select working_hours, hourly_rate,salary_amount = working_hours*hourly_rate+flat_amount  from tbl_user, tbl_salary where tbl_user.user_id = tbl_salary.user_id and tbl_salary.user_id like '" + user_ID.Text + "' or fname like '" + user_ID.Text + "%'",con);
+            //myadapter.Fill(ds);
+            
+
+            //rpt.SetDataSource(ds);
+            //frmNew f = new frmNew();
+            //f.LinkReport(cr);
+            //f.Show();
+
+
         }
     }
 }

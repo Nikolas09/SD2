@@ -16,5 +16,11 @@ namespace MDI_Payroll
         {
             InitializeComponent();
         }
+
+        private void PaymentOrder_Load(object sender, EventArgs e)
+        {
+
+            this.reportViewer1.RefreshReport();
+        }
     }
 }

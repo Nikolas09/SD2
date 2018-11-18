@@ -38,6 +38,24 @@
     <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net" />
@@ -54,10 +72,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dokimiDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>dokimiDataSet.xsd</DependentUpon>
+    <Compile Include="DeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteForm.Designer.cs">
+      <DependentUpon>DeleteForm.cs</DependentUpon>
     </Compile>
     <Compile Include="EmployeeAttendance.cs">
       <SubType>Form</SubType>
@@ -76,6 +95,17 @@
     </Compile>
     <Compile Include="EmployeeRegistration.Designer.cs">
       <DependentUpon>EmployeeRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinalSalaryDataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FinalSalaryDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FinalSalaryReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinalSalaryReport.Designer.cs">
+      <DependentUpon>FinalSalaryReport.cs</DependentUpon>
     </Compile>
     <Compile Include="frmNew.cs">
       <SubType>Form</SubType>
@@ -107,6 +137,16 @@
     <Compile Include="PaymentOrder.Designer.cs">
       <DependentUpon>PaymentOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="PayrollDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PayrollDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollDataSet_new.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PayrollDataSet_new.xsd</DependentUpon>
+    </Compile>
     <Compile Include="payslip.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -121,30 +161,34 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReportSalaryTest.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ReportSalaryTest.rpt</DependentUpon>
-      <SubType>Component</SubType>
+    <Compile Include="RegistationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistationForm.Designer.cs">
+      <DependentUpon>RegistationForm.cs</DependentUpon>
     </Compile>
     <Compile Include="salaryDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>salaryDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="SalaryDatasetTest.cs">
-      <DependentUpon>SalaryDatasetTest.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="SalaryDatasetTest.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SalaryDatasetTest.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="SalaryReportDataGrid.cs">
+    <Compile Include="salaryFormReport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SalaryReportDataGrid.Designer.cs">
-      <DependentUpon>SalaryReportDataGrid.cs</DependentUpon>
+    <Compile Include="salaryFormReport.Designer.cs">
+      <DependentUpon>salaryFormReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salaryRegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salaryRegistrationForm.Designer.cs">
+      <DependentUpon>salaryRegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalaryReportWithoutOver.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalaryReportWithoutOver.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="SalarySlip.cs">
       <SubType>Form</SubType>
@@ -152,11 +196,16 @@
     <Compile Include="SalarySlip.Designer.cs">
       <DependentUpon>SalarySlip.cs</DependentUpon>
     </Compile>
-    <Compile Include="Save.cs">
-      <SubType>Form</SubType>
+    <Compile Include="SalarySlipReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalarySlipReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Save.Designer.cs">
-      <DependentUpon>Save.cs</DependentUpon>
+    <Compile Include="SalaryWithoutOvertimeDataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalaryWithoutOvertimeDataset.xsd</DependentUpon>
     </Compile>
     <Compile Include="SearchEmp.cs">
       <SubType>Form</SubType>
@@ -164,6 +213,22 @@
     <Compile Include="SearchEmp.Designer.cs">
       <DependentUpon>SearchEmp.cs</DependentUpon>
     </Compile>
+    <Compile Include="SlipRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SlipRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="testReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>testReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="DeleteForm.resx">
+      <DependentUpon>DeleteForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeAttendance.resx">
       <DependentUpon>EmployeeAttendance.cs</DependentUpon>
     </EmbeddedResource>
@@ -172,6 +237,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeRegistration.resx">
       <DependentUpon>EmployeeRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinalSalaryReport.rdlc" />
+    <EmbeddedResource Include="FinalSalaryReport.resx">
+      <DependentUpon>FinalSalaryReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNew.resx">
       <DependentUpon>frmNew.cs</DependentUpon>
@@ -206,32 +275,70 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="ReportSalaryTest.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>ReportSalaryTest.cs</LastGenOutput>
+    <EmbeddedResource Include="RegistationForm.resx">
+      <DependentUpon>RegistationForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SalaryReportDataGrid.resx">
-      <DependentUpon>SalaryReportDataGrid.cs</DependentUpon>
+    <EmbeddedResource Include="salaryFormReport.resx">
+      <DependentUpon>salaryFormReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salaryRegistrationForm.resx">
+      <DependentUpon>salaryRegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalaryReportWithoutOver.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalaryReportWithoutOver.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="SalarySlip.resx">
       <DependentUpon>SalarySlip.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Save.resx">
-      <DependentUpon>Save.cs</DependentUpon>
+    <EmbeddedResource Include="SalarySlipReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalarySlipReport1.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="SearchEmp.resx">
       <DependentUpon>SearchEmp.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="dokimiDataSet.xsc">
-      <DependentUpon>dokimiDataSet.xsd</DependentUpon>
+    <EmbeddedResource Include="SlipRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SlipRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="testReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>testReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="FinalSalaryDataset.xsc">
+      <DependentUpon>FinalSalaryDataset.xsd</DependentUpon>
     </None>
-    <None Include="dokimiDataSet.xsd">
+    <None Include="FinalSalaryDataset.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>dokimiDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>FinalSalaryDataset.Designer.cs</LastGenOutput>
     </None>
-    <None Include="dokimiDataSet.xss">
-      <DependentUpon>dokimiDataSet.xsd</DependentUpon>
+    <None Include="FinalSalaryDataset.xss">
+      <DependentUpon>FinalSalaryDataset.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="PayrollDataSet.xsc">
+      <DependentUpon>PayrollDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PayrollDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PayrollDataSet.xss">
+      <DependentUpon>PayrollDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollDataSet_new.xsc">
+      <DependentUpon>PayrollDataSet_new.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollDataSet_new.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PayrollDataSet_new.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PayrollDataSet_new.xss">
+      <DependentUpon>PayrollDataSet_new.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -253,16 +360,16 @@
     <None Include="salaryDataSet.xss">
       <DependentUpon>salaryDataSet.xsd</DependentUpon>
     </None>
-    <None Include="SalaryDatasetTest.xsc">
-      <DependentUpon>SalaryDatasetTest.xsd</DependentUpon>
+    <None Include="SalaryWithoutOvertimeDataset.xsc">
+      <DependentUpon>SalaryWithoutOvertimeDataset.xsd</DependentUpon>
     </None>
-    <None Include="SalaryDatasetTest.xsd">
+    <None Include="SalaryWithoutOvertimeDataset.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SalaryDatasetTest.Designer.cs</LastGenOutput>
+      <LastGenOutput>SalaryWithoutOvertimeDataset.Designer.cs</LastGenOutput>
     </None>
-    <None Include="SalaryDatasetTest.xss">
-      <DependentUpon>SalaryDatasetTest.xsd</DependentUpon>
+    <None Include="SalaryWithoutOvertimeDataset.xss">
+      <DependentUpon>SalaryWithoutOvertimeDataset.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -284,7 +391,19 @@
     <None Include="images\background0.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

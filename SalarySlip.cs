@@ -20,7 +20,7 @@ namespace MDI_Payroll
         {
             InitializeComponent();
         }
-        public string conString = "Data Source=DESKTOP-43RRQ63\'SQLEXPRESS;Initial Catalog=sd2;Integrated Security=True";
+        string conString = "Data Source=DESKTOP-43RRQ63\\SQLEXPRESS;Initial Catalog=sd2;Integrated Security=True";
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -94,12 +94,9 @@ namespace MDI_Payroll
              */
 
 
-            //tuto kanonika
-            //frmPayslip pay = new frmPayslip();
-            //pay.Show();
 
-            SalaryReportDataGrid salary = new SalaryReportDataGrid();
-            salary.Show();
+            frmPayslip pay = new frmPayslip();
+            pay.Show();
         }
 
         private void SalarySlip_Load(object sender, EventArgs e)

@@ -143,7 +143,7 @@
     <value>Segoe UI, 10.8pt</value>
   </data>
   <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 30</value>
+    <value>129, 30</value>
   </data>
   <data name="saveToolStripMenuItem.Text" xml:space="preserve">
     <value>Save</value>
@@ -152,7 +152,7 @@
     <value>Segoe UI, 10.8pt</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 30</value>
+    <value>129, 30</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>Exit</value>
@@ -182,7 +182,13 @@
     <value>263, 30</value>
   </data>
   <data name="viewEmploeesToolStripMenuItem.Text" xml:space="preserve">
-    <value>View Employees</value>
+    <value>Edit Employee </value>
+  </data>
+  <data name="deleteEmployeeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 30</value>
+  </data>
+  <data name="deleteEmployeeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Delete Employee</value>
   </data>
   <data name="staffToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>216, 30</value>
@@ -242,13 +248,13 @@
     <value>Employee Salary Slip</value>
   </data>
   <data name="generateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 30</value>
+    <value>167, 30</value>
   </data>
   <data name="generateToolStripMenuItem.Text" xml:space="preserve">
     <value>Generate</value>
   </data>
   <data name="findToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 30</value>
+    <value>167, 30</value>
   </data>
   <data name="findToolStripMenuItem.Text" xml:space="preserve">
     <value>Search</value>
@@ -370,6 +376,12 @@
     <value>viewEmploeesToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;viewEmploeesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteEmployeeToolStripMenuItem.Name" xml:space="preserve">
+    <value>deleteEmployeeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;deleteEmployeeToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;paymentOrderToolStripMenuItem.Name" xml:space="preserve">

@@ -41,6 +41,7 @@
             this.searchEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newEmployeeEntryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewEmploeesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deleteEmployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.paymentOrderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.generateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -126,7 +127,8 @@
             this.staffToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.searchEmployeeToolStripMenuItem,
             this.newEmployeeEntryToolStripMenuItem,
-            this.viewEmploeesToolStripMenuItem});
+            this.viewEmploeesToolStripMenuItem,
+            this.deleteEmployeeToolStripMenuItem});
             this.staffToolStripMenuItem.ForeColor = System.Drawing.Color.DarkBlue;
             this.staffToolStripMenuItem.Name = "staffToolStripMenuItem";
             resources.ApplyResources(this.staffToolStripMenuItem, "staffToolStripMenuItem");
@@ -154,6 +156,12 @@
             this.viewEmploeesToolStripMenuItem.Name = "viewEmploeesToolStripMenuItem";
             resources.ApplyResources(this.viewEmploeesToolStripMenuItem, "viewEmploeesToolStripMenuItem");
             this.viewEmploeesToolStripMenuItem.Click += new System.EventHandler(this.viewEmploeesToolStripMenuItem_Click);
+            // 
+            // deleteEmployeeToolStripMenuItem
+            // 
+            this.deleteEmployeeToolStripMenuItem.Name = "deleteEmployeeToolStripMenuItem";
+            resources.ApplyResources(this.deleteEmployeeToolStripMenuItem, "deleteEmployeeToolStripMenuItem");
+            this.deleteEmployeeToolStripMenuItem.Click += new System.EventHandler(this.deleteEmployeeToolStripMenuItem_Click);
             // 
             // paymentOrderToolStripMenuItem
             // 
@@ -286,6 +294,7 @@
         public System.Windows.Forms.ToolStripMenuItem reportsToolStripMenuItem;
         internal System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem viewEmploeesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem deleteEmployeeToolStripMenuItem;
     }
 }
 

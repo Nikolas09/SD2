@@ -36,11 +36,21 @@ namespace MDI_Payroll.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-43RRQ63\\SQLEXPRESS;Initial Catalog=Payroll;Integrated Securit" +
-            "y=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-43RRQ63\\SQLEXPRESS;Initial Catalog=sd2;Integrated Security=Tr" +
+            "ue")]
         public string PayrollConnectionString_new {
             get {
                 return ((string)(this["PayrollConnectionString_new"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-QLP0JCN;Initial Catalog=sd2;Integrated Security=True")]
+        public string sd2ConnectionString {
+            get {
+                return ((string)(this["sd2ConnectionString"]));
             }
         }
     }

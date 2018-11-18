@@ -17,7 +17,7 @@ namespace MDI_Payroll
         {
             InitializeComponent();
         }
-        public string conString = "Data Source=DESKTOP-43RRQ63\\SQLEXPRESS;Initial Catalog=sd2;Integrated Security=True";
+        string conString = "Data Source=DESKTOP-43RRQ63\\SQLEXPRESS;Initial Catalog=sd2;Integrated Security=True";
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -52,11 +52,6 @@ namespace MDI_Payroll
         }
 
         private void SearchEmp_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataview_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
