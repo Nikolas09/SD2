@@ -262,6 +262,7 @@
     <EmbeddedResource Include="PaymentOrder.resx">
       <DependentUpon>PaymentOrder.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="paymentOrdersReport.rdlc" />
     <EmbeddedResource Include="payslip.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>payslip.cs</LastGenOutput>

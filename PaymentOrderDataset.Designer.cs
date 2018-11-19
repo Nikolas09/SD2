@@ -287,6 +287,10 @@ namespace MDI_Payroll {
             
             private global::System.Data.DataColumn columnlname;
             
+            private global::System.Data.DataColumn columnflat_amount;
+            
+            private global::System.Data.DataColumn columnSalary;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             public DataTable1DataTable() {
@@ -354,6 +358,22 @@ namespace MDI_Payroll {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
+            public global::System.Data.DataColumn flat_amountColumn {
+                get {
+                    return this.columnflat_amount;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
+            public global::System.Data.DataColumn SalaryColumn {
+                get {
+                    return this.columnSalary;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -389,13 +409,15 @@ namespace MDI_Payroll {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public DataTable1Row AddDataTable1Row(System.DateTime issue_dt, string fname, string lname) {
+            public DataTable1Row AddDataTable1Row(System.DateTime issue_dt, string fname, string lname, int flat_amount, double Salary) {
                 DataTable1Row rowDataTable1Row = ((DataTable1Row)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
                         issue_dt,
                         fname,
-                        lname};
+                        lname,
+                        flat_amount,
+                        Salary};
                 rowDataTable1Row.ItemArray = columnValuesArray;
                 this.Rows.Add(rowDataTable1Row);
                 return rowDataTable1Row;
@@ -429,6 +451,8 @@ namespace MDI_Payroll {
                 this.columnissue_dt = base.Columns["issue_dt"];
                 this.columnfname = base.Columns["fname"];
                 this.columnlname = base.Columns["lname"];
+                this.columnflat_amount = base.Columns["flat_amount"];
+                this.columnSalary = base.Columns["Salary"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -442,6 +466,10 @@ namespace MDI_Payroll {
                 base.Columns.Add(this.columnfname);
                 this.columnlname = new global::System.Data.DataColumn("lname", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnlname);
+                this.columnflat_amount = new global::System.Data.DataColumn("flat_amount", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnflat_amount);
+                this.columnSalary = new global::System.Data.DataColumn("Salary", typeof(double), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnSalary);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnpayment_order_id}, true));
                 this.columnpayment_order_id.AutoIncrement = true;
@@ -455,6 +483,8 @@ namespace MDI_Payroll {
                 this.columnfname.MaxLength = 128;
                 this.columnlname.AllowDBNull = false;
                 this.columnlname.MaxLength = 50;
+                this.columnflat_amount.AllowDBNull = false;
+                this.columnSalary.ReadOnly = true;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -638,6 +668,45 @@ namespace MDI_Payroll {
                     this[this.tableDataTable1.lnameColumn] = value;
                 }
             }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
+            public int flat_amount {
+                get {
+                    return ((int)(this[this.tableDataTable1.flat_amountColumn]));
+                }
+                set {
+                    this[this.tableDataTable1.flat_amountColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
+            public double Salary {
+                get {
+                    try {
+                        return ((double)(this[this.tableDataTable1.SalaryColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Salary\' in table \'DataTable1\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableDataTable1.SalaryColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
+            public bool IsSalaryNull() {
+                return this.IsNull(this.tableDataTable1.SalaryColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
+            public void SetSalaryNull() {
+                this[this.tableDataTable1.SalaryColumn] = global::System.Convert.DBNull;
+            }
         }
         
         /// <summary>
@@ -803,6 +872,8 @@ namespace MDI_Payroll.PaymentOrderDatasetTableAdapters {
             tableMapping.ColumnMappings.Add("issue_dt", "issue_dt");
             tableMapping.ColumnMappings.Add("fname", "fname");
             tableMapping.ColumnMappings.Add("lname", "lname");
+            tableMapping.ColumnMappings.Add("flat_amount", "flat_amount");
+            tableMapping.ColumnMappings.Add("Salary", "Salary");
             this._adapter.TableMappings.Add(tableMapping);
         }
         
@@ -819,19 +890,34 @@ namespace MDI_Payroll.PaymentOrderDatasetTableAdapters {
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = @"SELECT tbl_payment_orders.payment_order_id, tbl_payment_orders.issue_dt, tbl_user.fname, tbl_user.lname
+            this._commandCollection[0].CommandText = @"SELECT tbl_payment_orders.payment_order_id, tbl_payment_orders.issue_dt, tbl_user.fname, tbl_user.lname, tbl_salary.flat_amount, tbl_salary.hourly_rate * tbl_salary.working_hours + tbl_salary.flat_amount AS [Salary]
 FROM     tbl_payment_orders INNER JOIN
                   tbl_salary ON tbl_payment_orders.salary_id = tbl_salary.salary_id INNER JOIN
-                  tbl_user ON tbl_salary.salary_id = tbl_user.salary_id";
+                  tbl_user ON tbl_salary.salary_id = tbl_user.salary_id
+ where tbl_payment_orders.issue_dt between @startDate and @endDate";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@startDate", global::System.Data.SqlDbType.Date, 3, global::System.Data.ParameterDirection.Input, 0, 0, "issue_dt", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@endDate", global::System.Data.SqlDbType.Date, 3, global::System.Data.ParameterDirection.Input, 0, 0, "issue_dt", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(PaymentOrderDataset.DataTable1DataTable dataTable) {
+        public virtual int Fill(PaymentOrderDataset.DataTable1DataTable dataTable, string startDate, string endDate) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
+            if ((startDate == null)) {
+                throw new global::System.ArgumentNullException("startDate");
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[0].Value = ((string)(startDate));
+            }
+            if ((endDate == null)) {
+                throw new global::System.ArgumentNullException("endDate");
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[1].Value = ((string)(endDate));
+            }
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
             }
@@ -843,8 +929,20 @@ FROM     tbl_payment_orders INNER JOIN
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual PaymentOrderDataset.DataTable1DataTable GetData() {
+        public virtual PaymentOrderDataset.DataTable1DataTable GetData(string startDate, string endDate) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
+            if ((startDate == null)) {
+                throw new global::System.ArgumentNullException("startDate");
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[0].Value = ((string)(startDate));
+            }
+            if ((endDate == null)) {
+                throw new global::System.ArgumentNullException("endDate");
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[1].Value = ((string)(endDate));
+            }
             PaymentOrderDataset.DataTable1DataTable dataTable = new PaymentOrderDataset.DataTable1DataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;

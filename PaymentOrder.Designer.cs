@@ -28,17 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.startDate = new System.Windows.Forms.DateTimePicker();
             this.endDate = new System.Windows.Forms.DateTimePicker();
             this.GroupBox2 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.DataTable1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.PaymentOrderDataset = new MDI_Payroll.PaymentOrderDataset();
+            this.DataTable1TableAdapter = new MDI_Payroll.PaymentOrderDatasetTableAdapters.DataTable1TableAdapter();
             this.GroupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DataTable1BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PaymentOrderDataset)).BeginInit();
             this.SuspendLayout();
             // 
             // reportViewer1
             // 
             this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            reportDataSource1.Name = "DataSet1";
+            reportDataSource1.Value = this.DataTable1BindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "MDI_Payroll.paymentOrdersReport.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(0, 0);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
@@ -56,7 +67,7 @@
             // endDate
             // 
             this.endDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.endDate.Location = new System.Drawing.Point(5, 33);
+            this.endDate.Location = new System.Drawing.Point(206, 5);
             this.endDate.Name = "endDate";
             this.endDate.Size = new System.Drawing.Size(200, 22);
             this.endDate.TabIndex = 7;
@@ -68,23 +79,38 @@
             this.GroupBox2.Controls.Add(this.startDate);
             this.GroupBox2.Controls.Add(this.endDate);
             this.GroupBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.GroupBox2.Location = new System.Drawing.Point(890, 0);
+            this.GroupBox2.Location = new System.Drawing.Point(694, 0);
             this.GroupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox2.Name = "GroupBox2";
             this.GroupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.GroupBox2.Size = new System.Drawing.Size(298, 61);
+            this.GroupBox2.Size = new System.Drawing.Size(494, 36);
             this.GroupBox2.TabIndex = 57;
             this.GroupBox2.TabStop = false;
             // 
             // button1
             // 
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(216, 12);
+            this.button1.Location = new System.Drawing.Point(412, -2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(70, 40);
             this.button1.TabIndex = 8;
             this.button1.Text = "Enter";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // DataTable1BindingSource
+            // 
+            this.DataTable1BindingSource.DataMember = "DataTable1";
+            this.DataTable1BindingSource.DataSource = this.PaymentOrderDataset;
+            // 
+            // PaymentOrderDataset
+            // 
+            this.PaymentOrderDataset.DataSetName = "PaymentOrderDataset";
+            this.PaymentOrderDataset.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // DataTable1TableAdapter
+            // 
+            this.DataTable1TableAdapter.ClearBeforeFill = true;
             // 
             // PaymentOrder
             // 
@@ -95,11 +121,14 @@
             this.Controls.Add(this.GroupBox2);
             this.Controls.Add(this.reportViewer1);
             this.IsMdiContainer = true;
+            this.MaximizeBox = false;
             this.Name = "PaymentOrder";
             this.Text = "PaymentOrder";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.PaymentOrder_Load);
             this.GroupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.DataTable1BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PaymentOrderDataset)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -111,5 +140,8 @@
         private System.Windows.Forms.DateTimePicker endDate;
         internal System.Windows.Forms.GroupBox GroupBox2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.BindingSource DataTable1BindingSource;
+        private PaymentOrderDataset PaymentOrderDataset;
+        private PaymentOrderDatasetTableAdapters.DataTable1TableAdapter DataTable1TableAdapter;
     }
 }
