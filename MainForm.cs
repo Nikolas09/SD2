@@ -88,7 +88,9 @@ namespace MDI_Payroll
         private void searchEmployeeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchEmp semp = new SearchEmp();
+            semp.MdiParent = this;
             semp.Show();
+
         }
         private void menuStrip1_ItemClicked_1(object sender, ToolStripItemClickedEventArgs e)
         {

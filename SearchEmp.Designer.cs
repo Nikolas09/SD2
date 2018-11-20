@@ -126,7 +126,6 @@
             this.ClientSize = new System.Drawing.Size(1099, 681);
             this.Controls.Add(this.dataview);
             this.Controls.Add(this.GroupBox1);
-            this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SearchEmp";
             this.Text = "SearchEmp";

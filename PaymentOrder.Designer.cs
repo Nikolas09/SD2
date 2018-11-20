@@ -30,22 +30,31 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            this.DataTable1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.PaymentOrderDataset = new MDI_Payroll.PaymentOrderDataset();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.startDate = new System.Windows.Forms.DateTimePicker();
             this.endDate = new System.Windows.Forms.DateTimePicker();
             this.GroupBox2 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.DataTable1BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.PaymentOrderDataset = new MDI_Payroll.PaymentOrderDataset();
             this.DataTable1TableAdapter = new MDI_Payroll.PaymentOrderDatasetTableAdapters.DataTable1TableAdapter();
-            this.GroupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataTable1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PaymentOrderDataset)).BeginInit();
+            this.GroupBox2.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // DataTable1BindingSource
+            // 
+            this.DataTable1BindingSource.DataMember = "DataTable1";
+            this.DataTable1BindingSource.DataSource = this.PaymentOrderDataset;
+            // 
+            // PaymentOrderDataset
+            // 
+            this.PaymentOrderDataset.DataSetName = "PaymentOrderDataset";
+            this.PaymentOrderDataset.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // reportViewer1
             // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
             reportDataSource1.Name = "DataSet1";
             reportDataSource1.Value = this.DataTable1BindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
@@ -98,16 +107,6 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // DataTable1BindingSource
-            // 
-            this.DataTable1BindingSource.DataMember = "DataTable1";
-            this.DataTable1BindingSource.DataSource = this.PaymentOrderDataset;
-            // 
-            // PaymentOrderDataset
-            // 
-            this.PaymentOrderDataset.DataSetName = "PaymentOrderDataset";
-            this.PaymentOrderDataset.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // DataTable1TableAdapter
             // 
             this.DataTable1TableAdapter.ClearBeforeFill = true;
@@ -126,9 +125,9 @@
             this.Text = "PaymentOrder";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.PaymentOrder_Load);
-            this.GroupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DataTable1BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PaymentOrderDataset)).EndInit();
+            this.GroupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
